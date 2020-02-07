@@ -6,7 +6,7 @@ class ContestantProject <ApplicationRecord
     self.select(project_id).count
   end
   
-  def self.avg_contestant_exp(@project.id)
-  
+  def self.avg_contestant_exp(proj_id)
+    cont_proj = self.select(proj_id)
   end
 end
