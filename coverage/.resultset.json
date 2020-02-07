@@ -252,18 +252,40 @@
           null
         ]
       },
+      "/Users/benfox/turing/2module/assessments/make_it_work/spec/features/projects/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/benfox/turing/2module/assessments/make_it_work/spec/models/challenge_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
-          2,
-          2,
+          1,
+          1,
           null,
           null,
           1,
-          2,
+          1,
           null,
           null
         ]
@@ -290,8 +312,8 @@
           null,
           1,
           1,
-          2,
-          2,
+          1,
+          1,
           null,
           null
         ]
@@ -311,15 +333,15 @@
           null,
           1,
           1,
-          2,
-          2,
-          2,
-          2,
+          1,
+          1,
+          1,
+          1,
           null,
           null,
           1,
-          2,
-          2,
+          1,
+          1,
           null,
           null
         ]
@@ -343,14 +365,14 @@
           null,
           1,
           1,
-          2,
-          2,
+          1,
+          1,
           null,
           null,
           1,
-          2,
-          2,
-          2,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -364,24 +386,8 @@
           1,
           null
         ]
-      },
-      "/Users/benfox/turing/2module/assessments/make_it_work/app/controllers/projects_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/benfox/turing/2module/assessments/make_it_work/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
       }
     },
-    "timestamp": 1581095026
+    "timestamp": 1581096261
   }
 }
