@@ -12,7 +12,7 @@ describe "As a visitor" do
       @project_4 = @recycled_material_challenge.projects.create(name: "Boardfit", material: "Cardboard Boxes")
       
       @contestant_1 = Contestant.create(name: "Kentaro Kameyama", age: 23, hometown: "Tulsa, OK", years_of_experience: 6)
-      @contestant_1 = Contestant.create(name: "Jay McCarroll", age: 24, hometown: "Philadelphia, PA", years_of_experience: 8)
+      @contestant_2 = Contestant.create(name: "Jay McCarroll", age: 24, hometown: "Philadelphia, PA", years_of_experience: 8)
       
       ContestantProject.create(project_id: @project_1.id, contestant_id: @contestant_1.id)
       ContestantProject.create(project_id: @project_2.id, contestant_id: @contestant_1.id)
