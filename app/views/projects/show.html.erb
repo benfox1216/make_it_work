@@ -1,3 +1,4 @@
 <p>Project Name: <%= @project.name %></p>
 <p>Material: <%= @project.material %></p>
 <p>Challenge Theme: <%= @challenge.theme %></p>
+<p>Number of Contestants: <%= ContestantProject.contestants_in_project(@project.id) %></p>

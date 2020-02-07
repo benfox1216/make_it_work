@@ -14,7 +14,7 @@
       <img src="./assets/0.11.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2020-02-07T10:38:34-07:00">2020-02-07T10:38:34-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2020-02-07T11:01:33-07:00">2020-02-07T11:01:33-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,14 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="green">
-  100.0%
+  98.36%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.15
+         1.2
        </span>
     </span> hits/line
     )
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>111</b> relevant lines,
-    <span class="green"><b>111</b> lines covered</span> and
-    <span class="red"><b>0</b> lines missed. </span>
+    <b>122</b> relevant lines,
+    <span class="green"><b>120</b> lines covered</span> and
+    <span class="red"><b>2</b> lines missed. </span>
     (<span class="green">
-  100.0%
+  98.36%
 </span>
 )
   </div>
@@ -98,7 +98,7 @@
           <td>4</td>
           <td>4</td>
           <td>0</td>
-          <td>1.0</td>
+          <td>1.5</td>
           
         </tr>
       
@@ -149,22 +149,22 @@
         <tr class="t-file">
           <td class="strong t-file__name"><a href="#e01fd03e2f0b1061b9ac70513f4bfe7c170169ed" class="src_link" title="app/models/contestant_project.rb">app/models/contestant_project.rb</a></td>
           <td class="green strong t-file__coverage">100.0 %</td>
-          <td>4</td>
-          <td>3</td>
-          <td>3</td>
+          <td>8</td>
+          <td>5</td>
+          <td>5</td>
           <td>0</td>
-          <td>1.0</td>
+          <td>1.2</td>
           
         </tr>
       
         <tr class="t-file">
           <td class="strong t-file__name"><a href="#ba1c6916698948eb04f4a5b284f5009c5be7d0b7" class="src_link" title="app/models/project.rb">app/models/project.rb</a></td>
-          <td class="green strong t-file__coverage">100.0 %</td>
+          <td class="red strong t-file__coverage">75.0 %</td>
+          <td>11</td>
+          <td>8</td>
           <td>6</td>
-          <td>5</td>
-          <td>5</td>
-          <td>0</td>
-          <td>1.0</td>
+          <td>2</td>
+          <td>0.75</td>
           
         </tr>
       
@@ -325,11 +325,11 @@
         <tr class="t-file">
           <td class="strong t-file__name"><a href="#b0b619bb64c3b707270922c89965ae1a1bde544a" class="src_link" title="spec/features/projects/show_spec.rb">spec/features/projects/show_spec.rb</a></td>
           <td class="green strong t-file__coverage">100.0 %</td>
-          <td>18</td>
-          <td>11</td>
-          <td>11</td>
+          <td>28</td>
+          <td>17</td>
+          <td>17</td>
           <td>0</td>
-          <td>1.0</td>
+          <td>1.41</td>
           
         </tr>
       
@@ -581,8 +581,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="3">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="3">
+            <span class="hits">2</span>
             
 
             
@@ -592,8 +592,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="4">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="4">
+            <span class="hits">2</span>
             
 
             
@@ -954,8 +954,8 @@
     
 
     <div class="t-line-summary">
-      <b>3</b> relevant lines.
-      <span class="green"><b>3</b> lines covered</span> and
+      <b>5</b> relevant lines.
+      <span class="green"><b>5</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -1006,6 +1006,50 @@
 
             
 
+            <code class="ruby">  </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def self.contestants_in_project(project_id)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="6">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    self.select(project_id).count</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
             <code class="ruby">end</code>
           </li>
         </div>
@@ -1019,8 +1063,8 @@
   <div class="header">
     <h3>app/models/project.rb</h3>
     <h4>
-      <span class="green">
-  100.0%
+      <span class="red">
+  75.0%
 </span>
 
       lines covered
@@ -1029,9 +1073,9 @@
     
 
     <div class="t-line-summary">
-      <b>5</b> relevant lines.
-      <span class="green"><b>5</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
+      <b>8</b> relevant lines.
+      <span class="green"><b>6</b> lines covered</span> and
+      <span class="red"><b>2</b> lines missed.</span>
     </div>
 
     
@@ -1098,6 +1142,61 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="6">
+            
+            
+
+            
+
+            <code class="ruby">  </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def self.num_of_contestants</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby">    binding.pry</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">    Project.first.contestants.count</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
             
             
 
@@ -3672,8 +3771,8 @@
     
 
     <div class="t-line-summary">
-      <b>11</b> relevant lines.
-      <span class="green"><b>11</b> lines covered</span> and
+      <b>17</b> relevant lines.
+      <span class="green"><b>17</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -3740,8 +3839,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="6">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="6">
+            <span class="hits">2</span>
             
 
             
@@ -3751,8 +3850,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="7">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="7">
+            <span class="hits">2</span>
             
 
             
@@ -3773,24 +3872,24 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="9">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="9">
+            <span class="hits">2</span>
             
 
             
 
-            <code class="ruby">      visit &quot;/challenges/#{@furniture_challenge.id}/projects/#{@project_1.id}&quot;</code>
+            <code class="ruby">      @contestant_1 = Contestant.create(name: &quot;Kentaro Kameyama&quot;, age: 23, hometown: &quot;Tulsa, OK&quot;, years_of_experience: 6)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="10">
-            
-            
-
+          <li class="covered" data-hits="2" data-linenumber="10">
+            <span class="hits">2</span>
             
 
-            <code class="ruby">    end</code>
+            
+
+            <code class="ruby">      @contestant_2 = Contestant.create(name: &quot;Jay McCarroll&quot;, age: 24, hometown: &quot;Philadelphia, PA&quot;, years_of_experience: 8)</code>
           </li>
         </div>
       
@@ -3801,51 +3900,51 @@
 
             
 
-            <code class="ruby">    </code>
+            <code class="ruby">      </code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="12">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="12">
+            <span class="hits">2</span>
             
 
             
 
-            <code class="ruby">    it &quot;I see the project&#39;s name, material, and theme&quot; do</code>
+            <code class="ruby">      ContestantProject.create(project_id: @project_1.id, contestant_id: @contestant_1.id)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="13">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="13">
+            <span class="hits">2</span>
             
 
             
 
-            <code class="ruby">      expect(page).to have_content(@project_1.name)</code>
+            <code class="ruby">      ContestantProject.create(project_id: @project_1.id, contestant_id: @contestant_2.id)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="14">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="14">
+            
             
 
             
 
-            <code class="ruby">      expect(page).to have_content(@project_1.material)</code>
+            <code class="ruby">      </code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="15">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="15">
+            <span class="hits">2</span>
             
 
             
 
-            <code class="ruby">      expect(page).to have_content(@furniture_challenge.theme)</code>
+            <code class="ruby">      visit &quot;/challenges/#{@furniture_challenge.id}/projects/#{@project_1.id}&quot;</code>
           </li>
         </div>
       
@@ -3867,12 +3966,122 @@
 
             
 
+            <code class="ruby">    </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="18">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    it &quot;I see the project&#39;s name, material, and theme&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="19">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(page).to have_content(@project_1.name)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="20">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(page).to have_content(@project_1.material)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="21">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(page).to have_content(@furniture_challenge.theme)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="22">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="23">
+            
+            
+
+            
+
+            <code class="ruby">    </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="24">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    it &quot;I see a count of the number of contestants on this project&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="25">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(page).to have_content(&quot;Number of Contestants: 2&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="26">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="27">
+            
+            
+
+            
+
             <code class="ruby">  end</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="18">
+          <li class="never" data-hits="" data-linenumber="28">
             
             
 
